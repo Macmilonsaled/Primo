@@ -9,7 +9,7 @@ def main():
 
 def foo(iters):
     print("entered function")
-    # for <название> in <итератор> 
+    # for <название> in <итератор>
     for i in range(1, iters+1):
         if i % 2:
             print("итерация {}".format(i))
